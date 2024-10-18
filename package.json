@@ -1,0 +1,18 @@
+{
+  "name": "compress_csv_zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 index.js",
+    "dev": "nodemon --max-old-space-size=4096 index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "compress_csv_zip": "file:",
+    "csv-writer": "^1.6.0"
+  }
+}
